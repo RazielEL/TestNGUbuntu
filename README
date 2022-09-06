@@ -1,0 +1,12 @@
+https://github.com/saucelabs/the-internet
+https://the-internet.herokuapp.com/
+
+
+Docker Image of The Internet Page
+https://hub.docker.com/r/gprestes/the-internet/
+
+Run this command: docker run -d -p 7080:5000 gprestes/the-internet
+
+Point your browser to http://localhost:7080
+
+// Troszke trzeba pozmieniac z localhost na the-internet.herokuapp.com, w kilku metodach tylko. W BeforeClass i After dodalem //

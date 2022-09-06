@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Package Tests">
+    <test verbose="2" preserve-order="true" name="C:/Users/pawlo/IdeaProjects/TestNG">
+
+        <packages>
+            <package name="featureOne"></package>
+        </packages>
+            <classes>
+                <class name="featureOne.Scenario1"></class>
+            </classes>
+       
+    </test>
+</suite>
