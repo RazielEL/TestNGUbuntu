@@ -26,7 +26,7 @@ public class Scenario2 extends CommonMethods {
         loginButton.click();
 
         WebElement greenStripe = driver.findElement(By.id("flash"));
-        String greenStripeText = "You logged into a secure area!";
+        String greenStripeText = "You logged into a secure area!]";
 
         SoftAssert sa = new SoftAssert();
 

@@ -8,6 +8,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -32,7 +33,9 @@ public class CommonMethods extends PageInitializers {
     public static void OpenBrowserAndStartApplication() {
 
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.setHeadless(true);
+        driver = new ChromeDriver(options);
         driver.get("http://localhost:7080/"); //tutaj trzeba zmienic hardcoded na properties. To jest baseURL na dockera.
         // driver.get("https://the-internet.herokuapp.com/"); // tutaj jest internetowa wersja strony, jakby ktos nie mial dockera. Tylko // zmienic.
 
