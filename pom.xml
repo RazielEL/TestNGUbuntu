@@ -77,7 +77,6 @@
                 <configuration>
                     <includes>
                         <include>**/*Scenario1.class</include>
-                        <include>**/*Scenario2.class</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
