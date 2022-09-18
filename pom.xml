@@ -68,6 +68,13 @@
 
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>repo1</id>
+            <url>https://github.com/RazielEL/TestNGUbuntu.git</url>
+        </repository>
+    </repositories>
+
     <build>
         <plugins>
             <plugin>
