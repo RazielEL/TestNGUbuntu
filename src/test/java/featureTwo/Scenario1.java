@@ -22,7 +22,7 @@ public class Scenario1 extends CommonMethods {
 
         WebElement submitButton = driver.findElement(By.id("file-submit"));
         WebElement choseFile = driver.findElement(By.id("file-upload"));
-        choseFile.sendKeys("C:\\Users\\pawlo\\Downloads\\some-file.txt");
+        choseFile.sendKeys("/home/razz/Downloads/some-file.txt");
         Thread.sleep(1000);
         submitButton.click();
 
