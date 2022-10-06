@@ -4,10 +4,10 @@
     <test verbose="2" preserve-order="true" name="C:/Users/pawlo/IdeaProjects/TestNG">
 
         <packages>
-            <package name="featureOne"></package>
+            <package name="featureA"></package>
         </packages>
             <classes>
-                <class name="featureOne.Scenario1"></class>
+                <class name="featureA.Scenario1"></class>
             </classes>
        
     </test>

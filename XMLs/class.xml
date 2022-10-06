@@ -3,9 +3,9 @@
 <suite name="Class Tests">
     <test verbose="2" preserve-order="true" name="C:/Users/pawlo/IdeaProjects/NewTestNG">
         <classes>
-            <class name="featureOne.Scenario1"></class>
-            <class name="featureOne.Scenario2"></class>
-            <class name="featureTwo.Scenario1"></class>
+            <class name="featureA.Scenario1"></class>
+            <class name="featureA.Scenario2"></class>
+            <class name="featureA.Scenario3"></class>
         </classes>
     </test>
 </suite>

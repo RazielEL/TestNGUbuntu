@@ -5,16 +5,16 @@
   <suite started-at="2022-08-19T13:41:50 GMT-05:00" name="Regression Tests" finished-at="2022-08-19T13:41:53 GMT-05:00" duration-ms="3190">
     <groups>
       <group name="retest">
-        <method signature="Scenario2.LoginPage()[pri:0, instance:featureTwo.Scenario2@6a01e23]" name="LoginPage" class="featureTwo.Scenario2"/>
+        <method signature="Scenario2.LoginPage()[pri:0, instance:featureA.Scenario4@6a01e23]" name="LoginPage" class="featureA.Scenario4"/>
       </group> <!-- retest -->
     </groups>
     <test started-at="2022-08-19T13:41:50 GMT-05:00" name="C:/Users/pawlo/IdeaProjects/NewTestNG/src/test/java" finished-at="2022-08-19T13:41:53 GMT-05:00" duration-ms="3190">
-      <class name="featureTwo.Scenario2">
-        <test-method is-config="true" signature="OpenBrowserAndStartApplication()[pri:0, instance:featureTwo.Scenario2@6a01e23]" started-at="2022-08-19T13:41:50 GMT-05:00" name="OpenBrowserAndStartApplication" finished-at="2022-08-19T13:41:53 GMT-05:00" duration-ms="2538" status="PASS">
+      <class name="featureA.Scenario4">
+        <test-method is-config="true" signature="OpenBrowserAndStartApplication()[pri:0, instance:featureA.Scenario4@6a01e23]" started-at="2022-08-19T13:41:50 GMT-05:00" name="OpenBrowserAndStartApplication" finished-at="2022-08-19T13:41:53 GMT-05:00" duration-ms="2538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowserAndStartApplication -->
-        <test-method signature="LoginPage()[pri:0, instance:featureTwo.Scenario2@6a01e23]" started-at="2022-08-19T13:41:53 GMT-05:00" name="LoginPage" finished-at="2022-08-19T13:41:53 GMT-05:00" duration-ms="476" status="FAIL">
+        <test-method signature="LoginPage()[pri:0, instance:featureA.Scenario4@6a01e23]" started-at="2022-08-19T13:41:53 GMT-05:00" name="LoginPage" finished-at="2022-08-19T13:41:53 GMT-05:00" duration-ms="476" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Asserted!
@@ -30,7 +30,7 @@ expected [You logged into a secure area!
 expected [You logged out of the secure area!
 ×] but found [You logged out of the secure area!]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at featureTwo.Scenario2.LoginPage(Scenario2.java:44)
+at featureA.Scenario4.LoginPage(Scenario2.java:44)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
@@ -62,15 +62,15 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPage -->
-        <test-method is-config="true" signature="GoToMainPage()[pri:0, instance:featureTwo.Scenario2@6a01e23]" started-at="2022-08-19T13:41:53 GMT-05:00" name="GoToMainPage" finished-at="2022-08-19T13:41:53 GMT-05:00" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="GoToMainPage()[pri:0, instance:featureA.Scenario4@6a01e23]" started-at="2022-08-19T13:41:53 GMT-05:00" name="GoToMainPage" finished-at="2022-08-19T13:41:53 GMT-05:00" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GoToMainPage -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:featureTwo.Scenario2@6a01e23]" started-at="2022-08-19T13:41:53 GMT-05:00" name="TearDown" finished-at="2022-08-19T13:41:53 GMT-05:00" duration-ms="62" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:featureA.Scenario4@6a01e23]" started-at="2022-08-19T13:41:53 GMT-05:00" name="TearDown" finished-at="2022-08-19T13:41:53 GMT-05:00" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- featureTwo.Scenario2 -->
+      </class> <!-- featureA.Scenario4 -->
     </test> <!-- C:/Users/pawlo/IdeaProjects/NewTestNG/src/test/java -->
   </suite> <!-- Regression Tests -->
 </testng-results>

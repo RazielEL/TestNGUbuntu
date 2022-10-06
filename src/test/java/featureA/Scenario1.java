@@ -1,4 +1,4 @@
-package featureOne;
+package featureA;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

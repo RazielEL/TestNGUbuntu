@@ -11,14 +11,14 @@
       </run>
     </groups>
     <classes>
-      <class name="featureTwo.Scenario2">
+      <class name="featureA.Scenario4">
         <methods>
           <include name="GoToMainPage"/>
           <include name="LoginPage"/>
           <include name="TearDown"/>
           <include name="OpenBrowserAndStartApplication"/>
         </methods>
-      </class> <!-- featureTwo.Scenario2 -->
+      </class> <!-- featureA.Scenario4 -->
     </classes>
   </test> <!-- C:/Users/pawlo/IdeaProjects/NewTestNG/src/test/java(failed) -->
 </suite> <!-- Failed suite [Regression Tests] -->

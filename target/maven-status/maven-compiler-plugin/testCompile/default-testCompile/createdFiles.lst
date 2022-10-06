@@ -1,6 +1,4 @@
-apiTheInternetLinks/TILAPI.class
 featureOne/Scenario1.class
-utils/TheInternetLinks.class
 utils/ExcelReader.class
 pages/Page.class
 utils/CommonMethods.class
@@ -9,4 +7,3 @@ featureOne/Scenario2.class
 utils/Listeners.class
 utils/PageInitializers.class
 featureTwo/Scenario2.class
-apiReqres/API.class

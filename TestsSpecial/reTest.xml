@@ -13,8 +13,7 @@
             </run>
         </groups>
         <packages>
-            <package name="featureOne"></package>
-            <package name="featureTwo"></package>
+            <package name="featureA"></package>
         </packages>
     </test>
 </suite>

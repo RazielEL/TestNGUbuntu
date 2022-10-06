@@ -5,8 +5,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.*;
@@ -18,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 // mysle, ze najlepiej jest robic osobna class HOOKS do kazdej package i po prostu
 // sortowac te scenariusze wg stron startowych.
 
-public class CommonMethods extends PageInitializers {
+public class CommonMethods {
 
     public static WebDriver driver;
 

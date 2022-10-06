@@ -11,14 +11,6 @@
           <include name="DynamicLoading"/>
         </methods>
       </class> <!-- featureOne.Scenario1 -->
-      <class name="featureTwo.Scenario1">
-        <methods>
-          <include name="GoToMainPage"/>
-          <include name="TearDown"/>
-          <include name="OpenBrowserAndStartApplication"/>
-          <include name="FileUpload"/>
-        </methods>
-      </class> <!-- featureTwo.Scenario1 -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

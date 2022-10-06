@@ -1,4 +1,4 @@
-package featureTwo;
+package featureA;
 
 import utils.CommonMethods;
 import org.openqa.selenium.By;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class Scenario2 extends CommonMethods {
+public class Scenario4 extends CommonMethods {
 
     @Test (groups = "retest")
     public void LoginPage(){

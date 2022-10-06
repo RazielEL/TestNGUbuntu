@@ -3,13 +3,13 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/pawlo/IdeaProjects/NewTestNG">
         <classes>
-            <class name="featureTwo.Scenario1">
+            <class name="featureA.Scenario3">
             <methods>
                 <include name="ForgotPassword"></include>
             </methods>
             </class>
 
-            <class name="featureOne.Scenario1">
+            <class name="featureA.Scenario1">
                 <methods>
                     <include name="DynamicControlsCheckbox"/>
                     <include name="DynamicLoading"/>

@@ -6,10 +6,10 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="C:/Users/pawlo/IdeaProjects/NewTestNG/src/test/java/utils">
         <classes>
-            <class name="featureOne.Scenario1"></class>
-            <class name="featureOne.Scenario2"></class>
-            <class name="featureTwo.Scenario1"></class>
-            <class name="featureTwo.Scenario2"></class>
+            <class name="featureA.Scenario1"></class>
+            <class name="featureA.Scenario2"></class>
+            <class name="featureA.Scenario3"></class>
+            <class name="featureA.Scenario4"></class>
         </classes>
     </test>
 </suite>

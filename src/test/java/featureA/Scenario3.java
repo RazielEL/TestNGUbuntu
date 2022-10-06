@@ -1,4 +1,4 @@
-package featureTwo;
+package featureA;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -9,7 +9,7 @@ import utils.CommonMethods;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Scenario1 extends CommonMethods {
+public class Scenario3 extends CommonMethods {
 
 
     @Test(groups = "regression")
