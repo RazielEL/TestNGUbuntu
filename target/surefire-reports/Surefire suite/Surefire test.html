@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Oct 05 10:43:17 EDT 2022</td>
+<td>Started on:</td><td>Thu Jan 26 18:33:27 EST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>27 seconds (27741 ms)</td>
+<tr><td>Total time:</td><td>25 seconds (25063 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,14 +75,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='featureOne.Scenario1.DynamicLoading()'><b>DynamicLoading</b><br>Test class: featureOne.Scenario1</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element reference of [object String] &quot;{\&quot;element-6066-11e4-a52e-4f735466cecf\&quot;:\&quot;3613fa09-5bf7-4c37-aa72-86b437f99c54\&quot;}&quot; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+<td title='featureA.Scenario1.DynamicLoading()'><b>DynamicLoading</b><br>Test class: featureA.Scenario1</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element reference of [object String] &quot;{\&quot;element-6066-11e4-a52e-4f735466cecf\&quot;:\&quot;a8a60416-d7e3-428a-888a-38535a841055\&quot;}&quot; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;razz-X570-AORUS-PRO-WIFI&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-48-generic&apos;, java.version: &apos;11.0.16&apos;
+System info: host: &apos;razz-X570-AORUS-PRO-WIFI&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.19.0-29-generic&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221003135607, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:platformVersion: 5.15.0-48-generic, moz:processID: 8307, moz:profile: /tmp/rust_mozprofilemh41HX, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:geckodriverVersion: 0.32.0, moz:headless: true, moz:platformVersion: 5.19.0-29-generic, moz:processID: 112610, moz:profile: /tmp/rust_mozprofiledhlgfB, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 152bedf1-b812-4550-bc3d-5c05b584e51b
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -91,20 +91,21 @@ Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at featureOne.Scenario1.DynamicLoading(Scenario1.java:119)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace694329275", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace694329275'><pre>org.openqa.selenium.StaleElementReferenceException: The element reference of [object String] &quot;{\&quot;element-6066-11e4-a52e-4f735466cecf\&quot;:\&quot;3613fa09-5bf7-4c37-aa72-86b437f99c54\&quot;}&quot; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+	at featureA.Scenario1.DynamicLoading(Scenario1.java:119)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace510368405", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace510368405'><pre>org.openqa.selenium.StaleElementReferenceException: The element reference of [object String] &quot;{\&quot;element-6066-11e4-a52e-4f735466cecf\&quot;:\&quot;a8a60416-d7e3-428a-888a-38535a841055\&quot;}&quot; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;razz-X570-AORUS-PRO-WIFI&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-48-generic&apos;, java.version: &apos;11.0.16&apos;
+System info: host: &apos;razz-X570-AORUS-PRO-WIFI&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.19.0-29-generic&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221003135607, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:platformVersion: 5.15.0-48-generic, moz:processID: 8307, moz:profile: /tmp/rust_mozprofilemh41HX, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:geckodriverVersion: 0.32.0, moz:headless: true, moz:platformVersion: 5.19.0-29-generic, moz:processID: 112610, moz:profile: /tmp/rust_mozprofiledhlgfB, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 152bedf1-b812-4550-bc3d-5c05b584e51b
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -113,11 +114,11 @@ Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at featureOne.Scenario1.DynamicLoading(Scenario1.java:119)
+	at featureA.Scenario1.DynamicLoading(Scenario1.java:119)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
@@ -126,7 +127,7 @@ Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:808)
 	at org.testng.TestRunner.run(TestRunner.java:603)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
@@ -140,8 +141,8 @@ Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
 	at org.testng.TestNG.runSuites(TestNG.java:1092)
 	at org.testng.TestNG.run(TestNG.java:1060)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
@@ -149,7 +150,7 @@ Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 </pre></div></td>
 <td>5</td>
-<td>featureOne.Scenario1@6200f9cb</td></tr>
+<td>featureA.Scenario1@429bd883</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -159,30 +160,15 @@ Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='featureOne.Scenario1.DynamicControlsEnableTextbox()'><b>DynamicControlsEnableTextbox</b><br>Test class: featureOne.Scenario1</td>
-<td></td>
-<td>3</td>
-<td>featureOne.Scenario1@6200f9cb</td></tr>
-<tr>
-<td title='featureTwo.Scenario1.FloatingMenu()'><b>FloatingMenu</b><br>Test class: featureTwo.Scenario1</td>
-<td></td>
-<td>0</td>
-<td>featureTwo.Scenario1@131ef10</td></tr>
-<tr>
-<td title='featureOne.Scenario1.DynamicControlsCheckbox()'><b>DynamicControlsCheckbox</b><br>Test class: featureOne.Scenario1</td>
+<td title='featureA.Scenario1.DynamicControlsCheckbox()'><b>DynamicControlsCheckbox</b><br>Test class: featureA.Scenario1</td>
 <td></td>
 <td>13</td>
-<td>featureOne.Scenario1@6200f9cb</td></tr>
+<td>featureA.Scenario1@429bd883</td></tr>
 <tr>
-<td title='featureTwo.Scenario1.FileUpload()'><b>FileUpload</b><br>Test class: featureTwo.Scenario1</td>
+<td title='featureA.Scenario1.DynamicControlsEnableTextbox()'><b>DynamicControlsEnableTextbox</b><br>Test class: featureA.Scenario1</td>
 <td></td>
-<td>1</td>
-<td>featureTwo.Scenario1@131ef10</td></tr>
-<tr>
-<td title='featureTwo.Scenario1.ForgotPassword()'><b>ForgotPassword</b><br>Test class: featureTwo.Scenario1</td>
-<td></td>
-<td>0</td>
-<td>featureTwo.Scenario1@131ef10</td></tr>
+<td>3</td>
+<td>featureA.Scenario1@429bd883</td></tr>
 </table><p>
 </body>
 </html>

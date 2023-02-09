@@ -4,7 +4,7 @@
     <listeners>
         <listener class-name="utils.Listeners"></listener>
     </listeners>
-    <test verbose="2" preserve-order="true" name="C:/Users/pawlo/IdeaProjects/NewTestNG/src/test/java">
+    <test verbose="2" preserve-order="true" name="C:/Users/pawlo/IdeaProjects/NewTestNG/src/test/java" parallel="methods" thread-count="2">
         <groups>
             <run>
                 <include name = "smoke">

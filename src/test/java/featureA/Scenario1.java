@@ -53,7 +53,7 @@ public class Scenario1 extends CommonMethods {
         sa.assertAll();
 
     }
-    @Test (groups = "regression")
+    @Test(groups = "smoke")
     public void DynamicControlsEnableTextbox(){
 
         WebElement dcpage = driver.findElement(By.linkText("Dynamic Controls"));

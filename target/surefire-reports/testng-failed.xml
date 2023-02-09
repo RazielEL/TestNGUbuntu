@@ -3,14 +3,14 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="featureOne.Scenario1">
+      <class name="featureA.Scenario1">
         <methods>
           <include name="GoToMainPage"/>
           <include name="TearDown"/>
           <include name="OpenBrowserAndStartApplication"/>
           <include name="DynamicLoading"/>
         </methods>
-      </class> <!-- featureOne.Scenario1 -->
+      </class> <!-- featureA.Scenario1 -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

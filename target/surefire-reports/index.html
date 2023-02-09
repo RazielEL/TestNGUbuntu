@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Surefire_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="featureOne.Scenario1" class="method navigator-link" hash-for-method="DynamicLoading">DynamicLoading</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="featureA.Scenario1" class="method navigator-link" hash-for-method="DynamicLoading">DynamicLoading</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Surefire_suite -->
@@ -118,27 +118,12 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="featureOne.Scenario1" class="method navigator-link" hash-for-method="DynamicControlsCheckbox">DynamicControlsCheckbox</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="featureA.Scenario1" class="method navigator-link" hash-for-method="DynamicControlsCheckbox">DynamicControlsCheckbox</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="featureOne.Scenario1" class="method navigator-link" hash-for-method="DynamicControlsEnableTextbox">DynamicControlsEnableTextbox</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="featureTwo.Scenario1" class="method navigator-link" hash-for-method="FileUpload">FileUpload</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="featureTwo.Scenario1" class="method navigator-link" hash-for-method="FloatingMenu">FloatingMenu</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="featureTwo.Scenario1" class="method navigator-link" hash-for-method="ForgotPassword">ForgotPassword</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="featureA.Scenario1" class="method navigator-link" hash-for-method="DynamicControlsEnableTextbox">DynamicControlsEnableTextbox</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -156,7 +141,7 @@
           <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">featureOne.Scenario1</span>
+              <span class="class-name">featureA.Scenario1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -164,13 +149,13 @@
                   <a name="DynamicLoading">
                   </a> <!-- DynamicLoading -->
                   <span class="method-name">DynamicLoading</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: The element reference of [object String] &quot;{\&quot;element-6066-11e4-a52e-4f735466cecf\&quot;:\&quot;3613fa09-5bf7-4c37-aa72-86b437f99c54\&quot;}&quot; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: The element reference of [object String] &quot;{\&quot;element-6066-11e4-a52e-4f735466cecf\&quot;:\&quot;a8a60416-d7e3-428a-888a-38535a841055\&quot;}&quot; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;razz-X570-AORUS-PRO-WIFI&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-48-generic&apos;, java.version: &apos;11.0.16&apos;
+System info: host: &apos;razz-X570-AORUS-PRO-WIFI&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.19.0-29-generic&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221003135607, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:platformVersion: 5.15.0-48-generic, moz:processID: 8307, moz:profile: /tmp/rust_mozprofilemh41HX, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:geckodriverVersion: 0.32.0, moz:headless: true, moz:platformVersion: 5.19.0-29-generic, moz:processID: 112610, moz:profile: /tmp/rust_mozprofiledhlgfB, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 152bedf1-b812-4550-bc3d-5c05b584e51b
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -179,9 +164,9 @@ Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at featureOne.Scenario1.DynamicLoading(Scenario1.java:119)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 36 stack frames
+	at featureA.Scenario1.DynamicLoading(Scenario1.java:119)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -190,7 +175,7 @@ Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">featureOne.Scenario1</span>
+              <span class="class-name">featureA.Scenario1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -209,35 +194,6 @@ Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">featureTwo.Scenario1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="FileUpload">
-                  </a> <!-- FileUpload -->
-                  <span class="method-name">FileUpload</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="FloatingMenu">
-                  </a> <!-- FloatingMenu -->
-                  <span class="method-name">FloatingMenu</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="ForgotPassword">
-                  </a> <!-- ForgotPassword -->
-                  <span class="method-name">ForgotPassword</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -249,8 +205,7 @@ Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
 &lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;featureTwo.Scenario1&quot;/&gt;
-      &lt;class name=&quot;featureOne.Scenario1&quot;/&gt;
+      &lt;class name=&quot;featureA.Scenario1&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -264,7 +219,7 @@ Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (2 classes)</span>
+                <span class="test-name">Surefire test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -281,10 +236,6 @@ Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
                 <span class="method-in-group-name">DynamicControlsEnableTextbox</span>
                 <br/>
               </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">FileUpload</span>
-                <br/>
-              </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
               <span class="test-group-name">smoke</span>
@@ -295,10 +246,6 @@ Session ID: 5b86e532-e4e4-469e-a4dc-1eb89cea24cf
               </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">DynamicLoading</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">ForgotPassword</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -318,36 +265,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'DynamicControlsCheckbox')
-data.setCell(0, 2, 'featureOne.Scenario1')
-data.setCell(0, 3, 13517);
+data.setCell(0, 2, 'featureA.Scenario1')
+data.setCell(0, 3, 13756);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'DynamicLoading')
-data.setCell(1, 2, 'featureOne.Scenario1')
-data.setCell(1, 3, 5772);
+data.setCell(1, 2, 'featureA.Scenario1')
+data.setCell(1, 3, 5332);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'DynamicControlsEnableTextbox')
-data.setCell(2, 2, 'featureOne.Scenario1')
-data.setCell(2, 3, 3189);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'FileUpload')
-data.setCell(3, 2, 'featureTwo.Scenario1')
-data.setCell(3, 3, 1302);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'ForgotPassword')
-data.setCell(4, 2, 'featureTwo.Scenario1')
-data.setCell(4, 3, 679);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'FloatingMenu')
-data.setCell(5, 2, 'featureTwo.Scenario1')
-data.setCell(5, 3, 357);
+data.setCell(2, 2, 'featureA.Scenario1')
+data.setCell(2, 3, 3260);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -362,18 +297,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">featureOne.Scenario1</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">OpenBrowserAndStartApplication</span>
-                <br/>
-                <span class="ignored-method-name">TearDown</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Surefire_suite" class="panel">
@@ -382,70 +308,40 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">featureTwo.Scenario1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">featureA.Scenario1</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">OpenBrowserAndStartApplication</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">FileUpload</span>
-                <span class="method-start">1946 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">GoToMainPage</span>
-                <span class="method-start">3249 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">FloatingMenu</span>
-                <span class="method-start">3348 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">GoToMainPage</span>
-                <span class="method-start">3705 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">ForgotPassword</span>
-                <span class="method-start">3778 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">GoToMainPage</span>
-                <span class="method-start">4457 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">featureOne.Scenario1</div> <!-- chronological-class-name -->
-              <div class="test-method">
                 <span class="method-name">DynamicControlsCheckbox</span>
-                <span class="method-start">4562 ms</span>
+                <span class="method-start">2045 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">GoToMainPage</span>
-                <span class="method-start">18079 ms</span>
+                <span class="method-start">15802 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">DynamicControlsEnableTextbox</span>
-                <span class="method-start">18174 ms</span>
+                <span class="method-start">15905 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">GoToMainPage</span>
-                <span class="method-start">21363 ms</span>
+                <span class="method-start">19165 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">DynamicLoading</span>
-                <span class="method-start">21453 ms</span>
+                <span class="method-start">19232 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">GoToMainPage</span>
-                <span class="method-start">27229 ms</span>
+                <span class="method-start">24567 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">featureTwo.Scenario1</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">27326 ms</span>
+                <span class="method-start">24643 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

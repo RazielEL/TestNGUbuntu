@@ -1,9 +1,6 @@
-featureOne/Scenario1.class
-utils/ExcelReader.class
-pages/Page.class
-utils/CommonMethods.class
-featureTwo/Scenario1.class
-featureOne/Scenario2.class
+featureA/Scenario1.class
+featureA/Scenario4.class
+featureA/Scenario3.class
+featureA/Scenario2.class
 utils/Listeners.class
-utils/PageInitializers.class
-featureTwo/Scenario2.class
+utils/CommonMethods.class
