@@ -5,6 +5,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.*;
@@ -23,14 +25,32 @@ public class CommonMethods {
     @BeforeTest(alwaysRun = true)
     public static void OpenBrowserAndStartApplication() {
 
-        WebDriverManager.firefoxdriver().setup();
-        FirefoxOptions options = new FirefoxOptions();
-        options.setHeadless(true);
-        driver = new FirefoxDriver(options);
-        driver.get("http://localhost:7080/"); //tutaj trzeba zmienic hardcoded na properties. To jest baseURL na dockera.
-        // driver.get("https://the-internet.herokuapp.com/"); // tutaj jest internetowa wersja strony, jakby ktos nie mial dockera. Tylko // zmienic.
+        ConfigReader.readProperties(Constants.CONF_FILEPATH);
+
+        switch(ConfigReader.getPropertyValue("browser")){
+            case "firefox":
+                WebDriverManager.firefoxdriver().setup();
+                FirefoxOptions ffOpt = new FirefoxOptions();
+                ffOpt.setHeadless(true);
+                driver = new FirefoxDriver(ffOpt);
+                break;
+
+            case "chrome":
+                WebDriverManager.chromedriver().setup();
+                ChromeOptions gcOpt = new ChromeOptions();
+                gcOpt.setHeadless(true);
+                driver = new ChromeDriver(gcOpt);
+                break;
+        }
+
+        driver.get(ConfigReader.getPropertyValue("url"));
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT, TimeUnit.SECONDS);
+
+
+//        driver.get("http://localhost:7080/"); //tutaj trzeba zmienic hardcoded na properties. To jest baseURL na dockera.
+//        // driver.get("https://the-internet.herokuapp.com/"); // tutaj jest internetowa wersja strony, jakby ktos nie mial dockera. Tylko // zmienic.
+
 
     }
 
